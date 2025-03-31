@@ -1,14 +1,20 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour{
-    [SerializeField]
-    private GameObject player;
-    [SerializeField]
-    private float speed;
-    [SerializeField]
-    private Rigidbody2D rb;
-    void FixedUpdate(){
-        Vector3 pos = player.transform.position  - gameObject.transform.position;
-        rb.linearVelocity =pos * speed;
+    [SerializeField] Transform target;
+
+    NavMeshAgent agent;
+
+    void Start()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updatePosition = false;
+    }
+
+    void Update()
+    {
+        agent.SetDestination(target.position);
     }
 }
