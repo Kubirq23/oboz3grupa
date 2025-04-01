@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +12,7 @@ public class playermovment : MonoBehaviour
 
 
     private void OnMove(InputValue value){
+        Debug.Log(value.Get<Vector2>());
         rb.linearVelocity  = value.Get<Vector2>() * MovmentSpeed;
     }
     private void Update(){
@@ -40,3 +40,4 @@ public class playermovment : MonoBehaviour
         
     }
 }
+    
