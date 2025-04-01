@@ -14,3 +14,4 @@ public class playermovment : MonoBehaviour
         rb.linearVelocity  = value.Get<Vector2>() * MovmentSpeed;
     }
 }
+    

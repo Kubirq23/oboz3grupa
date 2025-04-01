@@ -256,4 +256,4 @@ MonoBehaviour:
   Bullet: {fileID: 394900047074440455, guid: 2750958f8e7ffa340b7d527bd51e2ffb, type: 3}
   rb: {fileID: 1899149289712747944}
   shootPosition: {fileID: 7687041359765635814}
-  power: 3
+  power: 300

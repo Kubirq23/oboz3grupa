@@ -17,7 +17,7 @@ public class RewolverScript : MonoBehaviour
 
     void OnAttack()
     {
-        var  newBullet = Instantiate(Bullet, shootPosition.position,Quaternion.identity);
-        newBullet.Shoot(power, shootPosition.transform.forward);
+        var  newBullet = Instantiate(Bullet, shootPosition.position, shootPosition.rotation);
+        newBullet.Shoot(power, transform.up);
     }
 }
