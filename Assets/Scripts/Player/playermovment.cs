@@ -23,17 +23,19 @@ public class playermovment : MonoBehaviour
 
     
     private void SwichSprites(){
-        if( transform.rotation.z < 10 && transform.rotation.z > -10){
+        Debug.Log(transform.eulerAngles.z);
+        if(transform.eulerAngles.z < 20 && transform.eulerAngles.z > -20){
             sr.color = Color.black;
         }
-        if(transform.rotation.z > 80 && transform.rotation.z < 100){
+        if(transform.eulerAngles.z > 70 && transform.eulerAngles.z < 110){
             sr.color = Color.green;
         }
-        if(transform.rotation.z > 170  && transform.rotation.z < 190){
+        if(transform.eulerAngles.z > 160  && transform.eulerAngles.z < 200){
             sr.color = Color.gray;
         }
-        if(transform.rotation.z < 260 && transform.rotation.z < 280){
+        if(transform.eulerAngles.z > 250 && transform.eulerAngles.z < 290){
             sr.color = Color.blue;
+            
         }
         
     }
