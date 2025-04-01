@@ -7,6 +7,8 @@ public class playermovment : MonoBehaviour
     private float MovmentSpeed;
     [SerializeField]
     private Rigidbody2D rb;
+    [SerializeField]
+    private SpriteRenderer sr;
 
 
     private void OnMove(InputValue value){
