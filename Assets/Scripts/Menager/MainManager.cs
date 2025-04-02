@@ -17,6 +17,8 @@ public class MainManager : MonoBehaviour{
 
     private int enemyCount;
 
+    public Player Player => player.GetComponent<Player>();
+
     void Awake(){
         instance = this;
     }
