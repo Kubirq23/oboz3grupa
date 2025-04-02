@@ -243,6 +243,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162960046}
   m_CullTransparentMesh: 1
+--- !u!1 &256107361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 256107362}
+  - component: {fileID: 256107364}
+  - component: {fileID: 256107363}
+  m_Layer: 0
+  m_Name: RevolverBarrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &256107362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256107361}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3362.5671}
+  m_LocalScale: {x: 37.26749, y: 37.26749, z: 37.26749}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1030310269}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 349.3, y: -137.8}
+  m_SizeDelta: {x: 2, y: 2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &256107363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256107361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2464072575019927882, guid: 692c1d4ddc8ba3e59aad4decf64a76c0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &256107364
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256107361}
+  m_CullTransparentMesh: 1
 --- !u!1 &338829052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,7 +2146,16 @@ MonoBehaviour:
   - {fileID: -47230769999173027, guid: 2d67579d1f50c6f509781fed71feb75b, type: 3}
   - {fileID: -3408234830938468006, guid: c8cdac7c90a06b8f889df2aad489640c, type: 3}
   - {fileID: -1579854320153401414, guid: 57219f1510cb7591ab3c66dcbeea6193, type: 3}
+  Barrel:
+  - {fileID: 65415758754430230, guid: 1f8ae021b8270ee4c81179a19645a473, type: 3}
+  - {fileID: -4182470598815246656, guid: 15b34605cff6d5d1aa604efb324e86ad, type: 3}
+  - {fileID: -8760002297402837544, guid: 74348b180fc333b968db1995d8743ec8, type: 3}
+  - {fileID: 454395221237245606, guid: c82f7abab8a437d5996cd32c14b69ef5, type: 3}
+  - {fileID: -1370601275787246716, guid: 2a1ce4bc25deeac0099e980232d3e243, type: 3}
+  - {fileID: -1936181442332980553, guid: 5d9a0d980c10f62f4b7b1cd9a464348d, type: 3}
+  - {fileID: -2464072575019927882, guid: 692c1d4ddc8ba3e59aad4decf64a76c0, type: 3}
   healthImage: {fileID: 162960048}
+  barrelimage: {fileID: 256107363}
 --- !u!1 &1030310265
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2254,7 @@ RectTransform:
   - {fileID: 162960047}
   - {fileID: 700597867}
   - {fileID: 1168189479}
+  - {fileID: 256107362}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

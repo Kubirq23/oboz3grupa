@@ -47,9 +47,10 @@ public class Enemy : MonoBehaviour{
         Destroy(gameObject);
     }
     private void changeSprites(){
+        if(agent.path.corners.Length <= 1) return;
         var point = agent.path.corners[1];
         var p = transform.position - point;
-        Debug.Log(point+" "+p);
+        //Debug.Log(point+" "+p);
         if(Mathf.Abs(p.x) > Mathf.Abs(p.y))
         {
             if(Mathf.Sign(p.x) >= 0)
@@ -59,7 +60,6 @@ public class Enemy : MonoBehaviour{
             else {
                 anim.Play("EnemyLeft");
             }
-            
         }
         else{
             if(Mathf.Sign(p.y) >= 0){
