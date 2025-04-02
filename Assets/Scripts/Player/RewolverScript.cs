@@ -6,11 +6,10 @@ public class RewolverScript : MonoBehaviour
 {
     [SerializeField]
     private BulletScript Bullet;
-    [SerializeField]
+    [SerializeField]        
     private Rigidbody2D rb;
     [SerializeField]
     private Transform shootPosition;
-
     [SerializeField]
     private float power;
 
