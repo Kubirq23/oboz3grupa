@@ -5,8 +5,6 @@ public class DynamiteThrowingHand : MonoBehaviour
     [SerializeField]
     private DynamiteScript Dynamite;
     [SerializeField]
-    private Rigidbody2D rb;
-    [SerializeField]
     private Transform shootPosition;
     [SerializeField]
     private float power;
