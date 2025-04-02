@@ -3,9 +3,12 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour{
     [SerializeField] Transform target;
+    
+    
 
     [SerializeField]
     private bool updatePosition;
+    [SerializeField]
     NavMeshAgent agent;
 
 
@@ -19,7 +22,10 @@ public class Enemy : MonoBehaviour{
 
     void Update()
     {
-        agent.SetDestination(target.position);
+        if(agent.isOnNavMesh){
+            agent.SetDestination(target.position);
+        }
+        //zrobic obracanie enemy do prendkości
     }
 
     private void OnValidate()

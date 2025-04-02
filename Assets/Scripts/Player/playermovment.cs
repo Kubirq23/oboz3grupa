@@ -12,32 +12,24 @@ public class playermovment : MonoBehaviour
 
 
     private void OnMove(InputValue value){
-        Debug.Log(value.Get<Vector2>());
         rb.linearVelocity  = value.Get<Vector2>() * MovmentSpeed;
-    }
-    private void Update(){
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.up = mousePos - new Vector2(transform.position.x,transform.position.y);
-        SwichSprites();
+        Color r  = Color.black;
+        if(value.Get<Vector2>().x > 0){
+            r = Color.red;
+        }
+        else if(value.Get<Vector2>().x < 0){
+            r = Color.blue;
+        }
+        else if(value.Get<Vector2>().y >0){
+            r = Color.green;
+        }
+        else if(value.Get<Vector2>().y <0){
+            r= Color.magenta;
+        }
+        sr.color = r;
     }
 
     
-    private void SwichSprites(){
-        Debug.Log(transform.eulerAngles.z);
-        if(transform.eulerAngles.z < 20 && transform.eulerAngles.z > -20){
-            sr.color = Color.black;
-        }
-        if(transform.eulerAngles.z > 70 && transform.eulerAngles.z < 110){
-            sr.color = Color.green;
-        }
-        if(transform.eulerAngles.z > 160  && transform.eulerAngles.z < 200){
-            sr.color = Color.gray;
-        }
-        if(transform.eulerAngles.z > 250 && transform.eulerAngles.z < 290){
-            sr.color = Color.blue;
-            
-        }
-        
-    }
+
 }
     

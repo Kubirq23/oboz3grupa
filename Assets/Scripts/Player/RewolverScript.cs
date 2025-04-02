@@ -1,6 +1,4 @@
-using System.Runtime.CompilerServices;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
 public class RewolverScript : MonoBehaviour
 {
@@ -15,8 +13,9 @@ public class RewolverScript : MonoBehaviour
     private float power;
 
 
-    void OnAttack()
+    private void OnAttack()
     {
+        Debug.Log("attack");
         var  newBullet = Instantiate(Bullet, shootPosition.position, shootPosition.rotation);
         newBullet.Shoot(power, transform.up);
     }
