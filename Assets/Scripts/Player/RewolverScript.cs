@@ -15,7 +15,9 @@ public class RewolverScript : MonoBehaviour
     private void OnAttack()
     {
         Debug.Log("attack");
+        Quaternion myRotation = Quaternion.identity;
+        myRotation.eulerAngles = new Vector3(0,0,transform.rotation.z +90);
         var  newBullet = Instantiate(Bullet, shootPosition.position, shootPosition.rotation);
-        newBullet.Shoot(power, transform.up);
+        newBullet.Shoot(power, shootPosition.up);
     }
 }

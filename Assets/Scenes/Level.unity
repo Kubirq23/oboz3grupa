@@ -320,7 +320,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -9
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -1946,7 +1946,7 @@ PrefabInstance:
     - target: {fileID: 3616934774775988776, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
       propertyPath: guntr
       value: 
-      objectReference: {fileID: 975242894}
+      objectReference: {fileID: 1603977694}
     - target: {fileID: 7159566154846985433, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
       propertyPath: Health
       value: 4
@@ -2015,11 +2015,6 @@ PrefabInstance:
 --- !u!1 &975242887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8222589872080074156, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
-  m_PrefabInstance: {fileID: 975242886}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &975242894 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7687041359765635814, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
   m_PrefabInstance: {fileID: 975242886}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &994247800
@@ -2453,7 +2448,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16

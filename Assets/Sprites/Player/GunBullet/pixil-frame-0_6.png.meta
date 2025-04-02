@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9bbdc20641f50098922bd40217d1b5b
+guid: df6cd73862360f330b283838129a3d69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5785369134732854844
-    second: bottle1_0
+      213: 3664001944753031932
+    second: pixil-frame-0_6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottle1_0
+      name: pixil-frame-0_6_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 21
-        width: 53
-        height: 91
+        x: 9
+        y: 13
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36c24a6392c94050800000000000000
-      internalID: 5785369134732854844
+      spriteID: cfa48552b5629d230800000000000000
+      internalID: 3664001944753031932
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bottle1_0: 5785369134732854844
+      pixil-frame-0_6_0: 3664001944753031932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

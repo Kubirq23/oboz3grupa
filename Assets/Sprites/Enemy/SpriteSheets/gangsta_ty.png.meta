@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b9bbdc20641f50098922bd40217d1b5b
+guid: 2ded5db9ad85c73ffa017d47e3da865e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5785369134732854844
-    second: bottle1_0
+      213: -4681597349042002639
+    second: gangsta_ty_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottle1_0
+      name: gangsta_ty_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 21
-        width: 53
-        height: 91
+        x: 0
+        y: 74
+        width: 25
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36c24a6392c94050800000000000000
-      internalID: 5785369134732854844
+      spriteID: 135e0f4e300a70fb0800000000000000
+      internalID: -4681597349042002639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangsta_ty_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 74
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c268e12e22dda3b9528320096bc02
+      internalID: 767336313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangsta_ty_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 74
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6d65edf2849c2e48ed3b3db9e2b48a
+      internalID: 1867728458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangsta_ty_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 74
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc12c0c1bcb2e8679808e52705c624d
+      internalID: -1314531261
       vertices: []
       indices: 
       edges: []
@@ -125,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 71b1cf669efb307829c52476bcd855b7
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +201,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bottle1_0: 5785369134732854844
+      gangsta_ty_0: -4681597349042002639
+      gangsta_ty_1: 767336313
+      gangsta_ty_2: 1867728458
+      gangsta_ty_3: -1314531261
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

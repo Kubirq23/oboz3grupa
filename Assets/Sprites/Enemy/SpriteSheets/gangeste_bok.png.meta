@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: b9bbdc20641f50098922bd40217d1b5b
+guid: 3d7c48d062460eb60aa79fc465d2440b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5785369134732854844
-    second: bottle1_0
+      213: -8890472650423019038
+    second: gangeste_bok_0
+  - first:
+      213: 4273577677510593486
+    second: gangeste_bok_1
+  - first:
+      213: 7916696048020196467
+    second: gangeste_bok_2
+  - first:
+      213: 1202973592115031647
+    second: gangeste_bok_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottle1_0
+      name: gangeste_bok_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 21
-        width: 53
-        height: 91
+        x: 1
+        y: 64
+        width: 31
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36c24a6392c94050800000000000000
-      internalID: 5785369134732854844
+      spriteID: 2e9d53a6a32be9480800000000000000
+      internalID: -8890472650423019038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangeste_bok_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 66
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbce0c514cce4b30800000000000000
+      internalID: 4273577677510593486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangeste_bok_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 65
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c8bf87c11cddd60800000000000000
+      internalID: 7916696048020196467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gangeste_bok_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 66
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e2130cb12d1b010800000000000000
+      internalID: 1202973592115031647
       vertices: []
       indices: 
       edges: []
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bottle1_0: 5785369134732854844
+      gangeste_bok_0: -8890472650423019038
+      gangeste_bok_1: 4273577677510593486
+      gangeste_bok_2: 7916696048020196467
+      gangeste_bok_3: 1202973592115031647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
