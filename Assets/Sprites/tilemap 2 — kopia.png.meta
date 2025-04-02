@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: b615d81cabeb97d40bb8ade1239667ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5955090128341485666
+    second: "tilemap 2 \u2014 kopia_0"
+  - first:
+      213: -331114676096024754
+    second: "tilemap 2 \u2014 kopia_1"
+  - first:
+      213: 2131347885015819689
+    second: "tilemap 2 \u2014 kopia_2"
+  - first:
+      213: -5616025512018343034
+    second: "tilemap 2 \u2014 kopia_3"
+  - first:
+      213: 6475558913109678430
+    second: "tilemap 2 \u2014 kopia_4"
+  - first:
+      213: 4510272007820853356
+    second: "tilemap 2 \u2014 kopia_5"
+  - first:
+      213: -6717588809160462784
+    second: "tilemap 2 \u2014 kopia_6"
+  - first:
+      213: 14402508127972444
+    second: "tilemap 2 \u2014 kopia_7"
+  - first:
+      213: 1028253822428329783
+    second: "tilemap 2 \u2014 kopia_8"
+  - first:
+      213: 89855100083237848
+    second: "tilemap 2 \u2014 kopia_9"
+  - first:
+      213: -4400311621056441352
+    second: "tilemap 2 \u2014 kopia_10"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_0"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 113
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268ca399beab4a250800000000000000
+      internalID: 5955090128341485666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_1"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 79
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fb067d4f4a76bf0800000000000000
+      internalID: -331114676096024754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_2"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 113
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5e52beb91149d10800000000000000
+      internalID: 2131347885015819689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_3"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 79
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b8d924d8edf02b0800000000000000
+      internalID: -5616025512018343034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_4"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 113
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e595402c58ecdd950800000000000000
+      internalID: 6475558913109678430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_5"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 79
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60cc82ae74b79e30800000000000000
+      internalID: 4510272007820853356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_6"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee9d2c19456c2a0800000000000000
+      internalID: -6717588809160462784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_7"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ca7dc310b233000800000000000000
+      internalID: 14402508127972444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_8"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 45
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73737c05767154e00800000000000000
+      internalID: 1028253822428329783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_9"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 10
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3f7b9ccba3f3100800000000000000
+      internalID: 89855100083237848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tilemap 2 \u2014 kopia_10"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 45
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f358edf4e3fee2c0800000000000000
+      internalID: -4400311621056441352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "tilemap 2 \u2014 kopia_0": 5955090128341485666
+      "tilemap 2 \u2014 kopia_1": -331114676096024754
+      "tilemap 2 \u2014 kopia_10": -4400311621056441352
+      "tilemap 2 \u2014 kopia_2": 2131347885015819689
+      "tilemap 2 \u2014 kopia_3": -5616025512018343034
+      "tilemap 2 \u2014 kopia_4": 6475558913109678430
+      "tilemap 2 \u2014 kopia_5": 4510272007820853356
+      "tilemap 2 \u2014 kopia_6": -6717588809160462784
+      "tilemap 2 \u2014 kopia_7": 14402508127972444
+      "tilemap 2 \u2014 kopia_8": 1028253822428329783
+      "tilemap 2 \u2014 kopia_9": 89855100083237848
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
