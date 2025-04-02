@@ -646,6 +646,10 @@ PrefabInstance:
       propertyPath: shootPosition
       value: 
       objectReference: {fileID: 1791319967}
+    - target: {fileID: 660235726296409450, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
+      propertyPath: rotatedPositin
+      value: 
+      objectReference: {fileID: 915991734}
     - target: {fileID: 2263284330311314416, guid: 63b5a5dafe636784f8621acccb893ffd, type: 3}
       propertyPath: m_LocalScale.x
       value: 14
