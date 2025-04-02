@@ -6,11 +6,15 @@ public class MainManager : MonoBehaviour{
     public GameObject player;
     [SerializeField]
     private EnemySpawner[] spawners;
-    [SerializeField]
-    private Text text;
+
     [SerializeField]
     private Image gameoverscreen;
+    [SerializeField]
+    private Text bounty;
+    [SerializeField]
+    private int BforE;
     private int Bounty;
+
     private int enemyCount;
 
     void Awake(){
@@ -19,7 +23,7 @@ public class MainManager : MonoBehaviour{
     public void hit(int dmg){
         var p = player.GetComponent<Player>();
         p.ApplyDamage(dmg);
-        text.text = p.ReadHealth().ToString();
+        UIControler.instance.changeHealth(p.ReadHealth());
 
     }
     public void AddEnemy(){
@@ -27,6 +31,8 @@ public class MainManager : MonoBehaviour{
     }
     public void DelEnemy(){
         enemyCount --;
+        Bounty += BforE;
+        bounty.text = "Bounty:" + Bounty;
     }
     private void Update(){
         if(enemyCount > 50){
@@ -48,8 +54,9 @@ public class MainManager : MonoBehaviour{
         }
     }
     public void GameOver(){
-        
+
         gameoverscreen.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
 }

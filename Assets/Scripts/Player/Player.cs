@@ -3,9 +3,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    private int Health;
+    private int Health = 4;
     [SerializeField]
-    private int MaxHealth;
+    private int MaxHealth = 4;
     
     private void Heal(int amount){
         Health += amount;
@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     }
     public void ApplyDamage(int Damage){
         Health -= Damage;
-        if(Health < 0){
+        if(Health <= 0){
             Health = 0;
             Death();
         }

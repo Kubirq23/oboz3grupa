@@ -32,4 +32,8 @@ public class Enemy : MonoBehaviour{
     {
         agent.updateRotation = updatePosition;
     }
+    public void OnDestruction(){
+        MainManager.instance.DelEnemy();
+        Destroy(gameObject);
+    }
 }
