@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,33 +9,40 @@ public class playermovment : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField]
     private SpriteRenderer sr;
-
+    [SerializeField]
+    private Animator anim;
+    [SerializeField]
+    private Transform guntr;
 
     private void OnMove(InputValue value){
         rb.linearVelocity  = value.Get<Vector2>() * MovmentSpeed;
-    }
-    private void Update(){
-        Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.up = mousePos - new Vector2(transform.position.x,transform.position.y);
-        SwichSprites();
+        Color r  = Color.black;
+        if(value.Get<Vector2>().x > 0){
+            anim.Play("WalkLeft");
+            guntr.eulerAngles = new Vector3(0,0,-90); 
+        }
+        else if(value.Get<Vector2>().x < 0){//do porawy
+            anim.Play("WalkRight");
+
+            guntr.eulerAngles = new Vector3(0,0,180); 
+
+        }
+        else if(value.Get<Vector2>().y > 0){
+            anim.Play("WalkUp");
+
+            guntr.eulerAngles = new Vector3(0,0,0); 
+
+        }
+        else if(value.Get<Vector2>().y <0){
+            anim.Play("WalkDown");
+
+            guntr.eulerAngles = new Vector3(0,0,90); 
+
+        }
+        sr.color = r;
     }
 
     
-    private void SwichSprites(){
-        Debug.Log(transform.eulerAngles.z);
-        if(transform.eulerAngles.z < 20 && transform.eulerAngles.z > -20){
-            sr.color = Color.black;
-        }
-        if(transform.eulerAngles.z > 70 && transform.eulerAngles.z < 110){
-            sr.color = Color.green;
-        }
-        if(transform.eulerAngles.z > 160  && transform.eulerAngles.z < 200){
-            sr.color = Color.gray;
-        }
-        if(transform.eulerAngles.z > 250 && transform.eulerAngles.z < 290){
-            sr.color = Color.blue;
-            
-        }
-        
-    }
+
 }
+    
