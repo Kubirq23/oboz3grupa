@@ -32,6 +32,7 @@ public class DynamiteScript : MonoBehaviour
                 collider.gameObject.GetComponent<Player>().ApplyDamage(1);
             }
         }
+        ShakeBehavior.TriggerShake(1);
         Destroy(gameObject);
         
     }
