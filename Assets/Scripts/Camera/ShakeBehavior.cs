@@ -1,5 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ShakeBehavior : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class ShakeBehavior : MonoBehaviour
     public static ShakeBehavior instance;
     // Transform of the GameObject you want to shake
     private Transform transform;
+    public Volume volume;
 
     // Desired duration of the shake effect
     private float shakeDuration = 0f;
