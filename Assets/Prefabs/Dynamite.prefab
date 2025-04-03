@@ -161,6 +161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2fa32725b5154f40a97029bbc548d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sd:
+    ID: 1073741824
+    _sourceAsset: {fileID: 11400000, guid: 45dda4631e016c748b6f3252bcb364b0, type: 2}
+    <DebugObject>k__BackingField: {fileID: 1546480793170291330}
   rb: {fileID: 2192184582326577598}
 --- !u!61 &3649147288309623779
 BoxCollider2D:

@@ -283,6 +283,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a34048e913401399c65a63e69de59e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sd:
+    ID: 1073741826
+    _sourceAsset: {fileID: 11400000, guid: 45dda4631e016c748b6f3252bcb364b0, type: 2}
+    <DebugObject>k__BackingField: {fileID: 8222589872080074156}
   Health: 4
   MaxHealth: 4
 --- !u!114 &660235726296409450
@@ -344,6 +348,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dynamite: {fileID: -5622439554579973171, guid: 88dbd3003e2ba1e4d91b7d4a35428ae8, type: 3}
-  rb: {fileID: 1899149289712747944}
   shootPosition: {fileID: 5726522416100691324}
   power: 10

@@ -1,11 +1,13 @@
 
 using System.Collections;
+using Ami.BroAudio;
 using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
     public Rigidbody2D Rb => rb;
-
+    [SerializeField]
+    private SoundID sd;
     [SerializeField]
     private Rigidbody2D rb;
     [SerializeField]
@@ -14,7 +16,7 @@ public class BulletScript : MonoBehaviour
     private Vector3 dir;
     private void Awake(){
         StartCoroutine(death());
-
+        BroAudio.Play(sd);
     }
 
     public void Speed(){
