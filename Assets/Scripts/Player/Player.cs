@@ -6,8 +6,11 @@ public class Player : MonoBehaviour
     private int Health = 4;
     [SerializeField]
     private int MaxHealth = 4;
-    
-    private void Heal(int amount){
+
+    private bool isAlive = true;
+
+    public bool IsAlive => isAlive;
+    public void Heal(int amount){
         Health += amount;
         if(Health > MaxHealth){
             Health= MaxHealth;
@@ -24,6 +27,7 @@ public class Player : MonoBehaviour
         return Health;
     }
     private void Death(){
+        isAlive = false;
         MainManager.instance.GameOver();
         gameObject.GetComponent<playermovment>().enabled = false;
         this.enabled = false;

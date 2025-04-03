@@ -35,6 +35,7 @@ public class EnemySpawner : MonoBehaviour
     }
     public void start(){
         canSpawn = true;
+        StartCoroutine(Spawner());
     }
 
 }

@@ -16,6 +16,9 @@ public class MainManager : MonoBehaviour{
     private int Bounty;
 
     private int enemyCount;
+    private bool isSpowned;
+
+    public Player Player => player.GetComponent<Player>();
 
     void Awake(){
         instance = this;
@@ -28,20 +31,19 @@ public class MainManager : MonoBehaviour{
     }
     public void AddEnemy(){
         enemyCount ++;
+        if(enemyCount > 50){
+            stopSpawn();
+            isSpowned = false;
+        }
     }
     public void DelEnemy(){
         enemyCount --;
         Bounty += BforE;
         bounty.text = "Bounty:" + Bounty;
-    }
-    private void Update(){
-        if(enemyCount > 50){
-            stopSpawn();
-        }
-        else{
+        if(enemyCount < 50 && !isSpowned){
             startSpawn();
+            isSpowned = true;
         }
-       
     }
     private void startSpawn(){
         foreach (var sp in spawners){
