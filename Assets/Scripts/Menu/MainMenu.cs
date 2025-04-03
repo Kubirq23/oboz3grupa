@@ -1,4 +1,5 @@
 using Ami.BroAudio;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,9 +8,15 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadSceneAsync(1);
+        StartCoroutine(StartCutscene());
     }
 
+    private IEnumerator StartCutscene()
+    {
+        yield return new WaitForSeconds(6f);
+        SceneManager.LoadSceneAsync(1);
+
+    }
 
     public void SetMasterVolume(float volume)
     {
