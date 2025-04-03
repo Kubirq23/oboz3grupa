@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7890912286735302370
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8380070010855017722}
+  - component: {fileID: 81910159995831923}
+  m_Layer: 5
+  m_Name: UIControler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8380070010855017722
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7890912286735302370}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &81910159995831923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7890912286735302370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e50a6606e3f1f1f5a959637548b52f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSprites:
+  - {fileID: 6318943572196742864, guid: 54045c5a644cf0a0bb4756fbc8041bc7, type: 3}
+  - {fileID: -8921989211974180955, guid: 730e9f3faf720a7899d52f31b0ac1b5e, type: 3}
+  - {fileID: -47230769999173027, guid: 2d67579d1f50c6f509781fed71feb75b, type: 3}
+  - {fileID: -3408234830938468006, guid: c8cdac7c90a06b8f889df2aad489640c, type: 3}
+  - {fileID: -1579854320153401414, guid: 57219f1510cb7591ab3c66dcbeea6193, type: 3}
+  Barrel:
+  - {fileID: 65415758754430230, guid: 1f8ae021b8270ee4c81179a19645a473, type: 3}
+  - {fileID: -4182470598815246656, guid: 15b34605cff6d5d1aa604efb324e86ad, type: 3}
+  - {fileID: -8760002297402837544, guid: 74348b180fc333b968db1995d8743ec8, type: 3}
+  - {fileID: 454395221237245606, guid: c82f7abab8a437d5996cd32c14b69ef5, type: 3}
+  - {fileID: -1370601275787246716, guid: 2a1ce4bc25deeac0099e980232d3e243, type: 3}
+  - {fileID: -1936181442332980553, guid: 5d9a0d980c10f62f4b7b1cd9a464348d, type: 3}
+  - {fileID: -2464072575019927882, guid: 692c1d4ddc8ba3e59aad4decf64a76c0, type: 3}
+  healthImage: {fileID: 0}
+  barrelimage: {fileID: 0}
+  pauseMenu: {fileID: 0}
