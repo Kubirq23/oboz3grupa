@@ -747,7 +747,7 @@
     "m_Title": "New Group",
     "m_Position": {
         "x": -858.0,
-        "y": -195.99996948242188
+        "y": -196.00001525878907
     }
 }
 
@@ -773,7 +773,7 @@
     "m_Title": "New Group",
     "m_Position": {
         "x": -965.0,
-        "y": 259.0
+        "y": 258.99993896484377
     }
 }
 
@@ -852,10 +852,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1197.0,
-            "y": -22.0,
+            "x": 1150.9998779296875,
+            "y": -2.000006675720215,
             "width": 208.0,
-            "height": 337.0
+            "height": 336.99993896484377
         }
     },
     "m_Slots": [
@@ -1541,11 +1541,11 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 5.0,
+    "m_Value": 1.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 10.0
     }
 }
 
@@ -2250,7 +2250,7 @@
     "m_DefaultRefNameVersion": 1,
     "m_RefNameGeneratedByDisplayName": "Texture",
     "m_DefaultReferenceName": "_Texture",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_MainTex",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
     "m_CustomSlotLabel": "",
@@ -2289,7 +2289,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 2.0,
+    "m_Value": 0.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
