@@ -7,11 +7,12 @@ public class Player : MonoBehaviour
     [SerializeField]
     private int MaxHealth = 4;
     
-    private void Heal(int amount){
+    public void Heal(int amount){
         Health += amount;
         if(Health > MaxHealth){
             Health= MaxHealth;
         }
+        UIControler.instance.changeHealth(Health);
     }
     public void ApplyDamage(int Damage){
         Health -= Damage;
