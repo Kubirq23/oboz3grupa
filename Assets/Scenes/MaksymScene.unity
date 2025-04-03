@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &162521202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.961637
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_Name
+      value: Vodka (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,6 +592,177 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+--- !u!1001 &1418614062
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.961637
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_Name
+      value: Vodka (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+--- !u!1001 &1549808526
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.961637
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_Name
+      value: Vodka (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+--- !u!1001 &1651842542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.961637
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_Name
+      value: Vodka (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
 --- !u!1 &1775411728
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +1036,63 @@ MonoBehaviour:
   anim: {fileID: 0}
   updatePosition: 0
   agent: {fileID: 0}
+--- !u!1001 &2136591415
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.961637
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 620287909180359152, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
+      propertyPath: m_Name
+      value: Vodka (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}
 --- !u!1001 &7560763049920046164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -933,3 +1218,8 @@ SceneRoots:
   - {fileID: 832650839}
   - {fileID: 1775411730}
   - {fileID: 994452618}
+  - {fileID: 162521202}
+  - {fileID: 1418614062}
+  - {fileID: 2136591415}
+  - {fileID: 1651842542}
+  - {fileID: 1549808526}

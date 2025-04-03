@@ -6,6 +6,8 @@ using UnityEngine.Rendering.Universal;
 public class VodkaScript : MonoBehaviour
 {
     [SerializeField]
+    private GameObject particleStuff;
+    [SerializeField]
     private Material coolMaterial;
     [SerializeField]
     private Volume volume;
@@ -24,6 +26,7 @@ public class VodkaScript : MonoBehaviour
             maybeDrunk = Random.Range(0, 3);
             if (maybeDrunk == 1)
             {
+                gameObject.SetActive(particleStuff);
                 Debug.Log("Drunk");
                 if (tween == null)
                 {
