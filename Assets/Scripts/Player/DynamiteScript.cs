@@ -15,11 +15,12 @@ public class DynamiteScript : MonoBehaviour
     }
     public IEnumerator GoBoom(){
         yield return new WaitForSeconds(2f);
-        var colliders = Physics2D.OverlapCircleAll(gameObject.transform.position, 1f);
+        var colliders = Physics2D.OverlapCircleAll(gameObject.transform.position, 3f);
         foreach (var collider in colliders)
         {
             if(collider.gameObject.CompareTag("Enemy")){
-                collider.gameObject.GetComponent<Enemy>().OnDestruction();
+                Debug.Log(collider.gameObject.name);
+                collider.gameObject.transform.parent.GetComponent<Enemy>().OnDestruction();
             }
             if(collider.gameObject.CompareTag("Player")){
                 Debug.Log("hit");

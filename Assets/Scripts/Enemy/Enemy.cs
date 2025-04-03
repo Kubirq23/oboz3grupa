@@ -30,6 +30,9 @@ public class Enemy : MonoBehaviour{
         if(agent.isOnNavMesh){
             agent.SetDestination(target.position);
         }
+        else{
+            Destroy(gameObject);
+        }
         changeSprites();
         //zrobic obracanie enemy do prendkości
     }

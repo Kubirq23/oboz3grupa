@@ -35,6 +35,10 @@ public class playermovment : MonoBehaviour
             anim.Play("WalkDown");
             guntr.eulerAngles = new Vector3(0,0,180); 
         }
+        Debug.Log(moveinput);
+        if(moveinput == new Vector2(0,0)){
+            anim.Play("Idle");
+        }
     }
 
     

@@ -13,9 +13,8 @@ public class DynamiteThrowingHand : MonoBehaviour
 
     void OnThrowBoom()
     {
-        Debug.Log("ddd");
         var newDynamite = Instantiate(Dynamite, shootPosition.position, shootPosition.rotation);
-        newDynamite.Throw(power, transform.up);
+        newDynamite.Throw(power, shootPosition.up);
 
     }
 
