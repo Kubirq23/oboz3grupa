@@ -73,7 +73,7 @@ Material:
     - _Count: 1
     - _EnableExternalAlpha: 0
     - _Speed: 1
-    - _Strength: 0.00054415007
+    - _Strength: 0
     - _ZWrite: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

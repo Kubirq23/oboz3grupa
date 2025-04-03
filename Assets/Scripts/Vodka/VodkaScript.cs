@@ -11,7 +11,7 @@ public class VodkaScript : MonoBehaviour
     [SerializeField]
     private Material coolMaterial;
     [SerializeField]
-    private Volume volume;
+    private UnityEngine.Rendering.Volume volume;
 
     [SerializeField]
     private ColorAdjustments adjustements;
@@ -19,6 +19,11 @@ public class VodkaScript : MonoBehaviour
     private int maybeDrunk;
     private Tween tween;
     private SoundID sd;
+
+    private void Start()
+    {
+            volume = ShakeBehavior.instance.volume;
+    }
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.CompareTag("Player")){
