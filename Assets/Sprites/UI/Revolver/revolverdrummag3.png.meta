@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      revolverdrummag3_0: 454395221237245606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

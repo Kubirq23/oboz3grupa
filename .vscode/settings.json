@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "graWyjazd.sln"
+    "dotnet.defaultSolution": "oboz3grupa.sln"
 }

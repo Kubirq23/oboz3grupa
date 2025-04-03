@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private bool isAlive = true;
 
     public bool IsAlive => isAlive;
-    private void Heal(int amount){
+    public void Heal(int amount){
         Health += amount;
         if(Health > MaxHealth){
             Health= MaxHealth;
