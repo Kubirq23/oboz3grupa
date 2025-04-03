@@ -111,6 +111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f5a938a0673d7e4bbcdc75052372c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sd:
+    ID: 1073741827
+    _sourceAsset: {fileID: 11400000, guid: 45dda4631e016c748b6f3252bcb364b0, type: 2}
+    <DebugObject>k__BackingField: {fileID: 1546480793170291330}
   rb: {fileID: 2192184582326577598}
   tw: {fileID: 432274949685230176}
 --- !u!114 &432274949685230176
@@ -126,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bs: {fileID: 394900047074440455}
+  timer: 0
 --- !u!1 &9205724988843106053
 GameObject:
   m_ObjectHideFlags: 0

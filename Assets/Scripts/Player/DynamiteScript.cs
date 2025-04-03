@@ -1,13 +1,18 @@
 using System.Collections;
+using Ami.BroAudio;
 using UnityEngine;
 
 public class DynamiteScript : MonoBehaviour
 {
     [SerializeField]
+    private SoundID sd;
+    [SerializeField]
     private Rigidbody2D rb;
     public Rigidbody2D Rb => rb;
     void Awake(){
         StartCoroutine(GoBoom());
+        BroAudio.Play(sd);
+
     }
     public void Throw(float power, Vector3 direction)
     {

@@ -1,7 +1,10 @@
+using Ami.BroAudio;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    private SoundID sd;
     [SerializeField]
     private int Health = 4;
     [SerializeField]
@@ -28,6 +31,7 @@ public class Player : MonoBehaviour
     }
     private void Death(){
         isAlive = false;
+        BroAudio.Play(sd);
         MainManager.instance.GameOver();
         gameObject.GetComponent<playermovment>().enabled = false;
         this.enabled = false;

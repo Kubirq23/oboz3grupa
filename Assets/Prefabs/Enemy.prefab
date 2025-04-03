@@ -74,6 +74,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 393c70fdffb8e3653a20aaf1c9b383d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound:
+    ID: 1073741825
+    _sourceAsset: {fileID: 11400000, guid: 45dda4631e016c748b6f3252bcb364b0, type: 2}
+    <DebugObject>k__BackingField: {fileID: 6207338408127386687}
   target: {fileID: 0}
   VodkaChance: 5
   Vodka: {fileID: 6963796643839652310, guid: 98d5bb1124c2d54b1ae88ef9fdbd3953, type: 3}

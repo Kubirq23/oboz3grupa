@@ -1,4 +1,5 @@
 using DG.Tweening;
+using Ami.BroAudio;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -17,10 +18,12 @@ public class VodkaScript : MonoBehaviour
 
     private int maybeDrunk;
     private Tween tween;
+    private SoundID sd;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player")) {
+        if(collision.gameObject.CompareTag("Player")){
             collision.gameObject.GetComponent<Player>().Heal(1);
+            BroAudio.Play(sd);
             Destroy(gameObject);
 
             maybeDrunk = Random.Range(0, 3);

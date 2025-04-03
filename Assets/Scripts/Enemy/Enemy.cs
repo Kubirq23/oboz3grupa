@@ -1,9 +1,9 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.PlayerLoop;
-
+using Ami.BroAudio;
 public class Enemy : MonoBehaviour{
+    [SerializeField]
+    private SoundID sound;
     [SerializeField] Transform target;
     [SerializeField]
     private int VodkaChance;
@@ -43,6 +43,8 @@ public class Enemy : MonoBehaviour{
     }
     public void OnDestruction(){
         MainManager.instance.DelEnemy();
+        BroAudio.Play(sound);
+        //vodka spawn chance
         float los = Random.Range(0,101);
         if(VodkaChance >los){
             Instantiate(Vodka,transform.position,Quaternion.identity);
