@@ -87,6 +87,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &6878366598242035078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8165318917714905359}
+  - component: {fileID: 4129264287583492487}
+  m_Layer: 0
+  m_Name: Drunk Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8165318917714905359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6878366598242035078}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.5852885, y: 2.400155, z: 1.2342849}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 620287909180359152}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4129264287583492487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6878366598242035078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 1
+  blendDistance: 0
+  weight: 0
+  sharedProfile: {fileID: 11400000, guid: d23b339849a0dd940bc8704a75713d20, type: 2}
 --- !u!1 &6963796643839652310
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,6 +168,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4699127148443186131}
+  - {fileID: 8165318917714905359}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3884155136225765524
@@ -133,6 +183,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c1d63f6256483d282ce04d5bcaa0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coolMaterial: {fileID: 2100000, guid: 50be3ac437c6e1245adad842ce0a4114, type: 2}
+  volume: {fileID: 4129264287583492487}
+  adjustements: {fileID: 0}
 --- !u!61 &-5438553992948676273
 BoxCollider2D:
   m_ObjectHideFlags: 0
