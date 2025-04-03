@@ -18,6 +18,8 @@ public class MainManager : MonoBehaviour{
     private int enemyCount;
     private bool isSpowned;
 
+    public Player Player => player.GetComponent<Player>();
+
     void Awake(){
         instance = this;
     }
